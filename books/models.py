@@ -8,6 +8,7 @@ class Books(models.Model):
 	
 	description = models.TextField(default=' ') 
 	condn = models.TextField(blank=True)
+	author = models.CharField(max_length = 150, null =True)
 
 	
 
